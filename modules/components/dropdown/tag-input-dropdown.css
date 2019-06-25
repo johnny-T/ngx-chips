@@ -1,0 +1,14 @@
+.ng-menu-item .ng-menu-item-content {
+  margin-left: 1em;
+  opacity: 0.7;
+}
+
+.ng-menu-item--category {
+  pointer-events: none;
+  cursor: default;
+}
+
+.ng-menu-item--category .ng-menu-item-content {
+  font-size: 1.2em;
+  font-weight: bold;
+}
