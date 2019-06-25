@@ -9,8 +9,7 @@
     "server": "ng serve --port 3010",
     "start": "npm run server",
     "test": "ng test modules --browsers=ChromeHeadless --watch=false",
-    "codecov": "ng test modules --code-coverage --browsers=ChromeHeadless --watch=false",
-    "postinstall": "npm run build"
+    "codecov": "ng test modules --code-coverage --browsers=ChromeHeadless --watch=false"
   },
   "author": {
     "name": "Giancarlo Buomprisco",
