@@ -1,5 +1,6 @@
 {
   "name": "ngx-chips-ac-groups",
+  "main": "./dist/main-es5.js",
   "version": "2.0.2",
   "description": "Tag Input component for Angular",
   "scripts": {
