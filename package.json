@@ -1,5 +1,5 @@
 {
-  "name": "ngx-chips",
+  "name": "ngx-chips-ac-groups",
   "version": "2.0.2",
   "description": "Tag Input component for Angular",
   "scripts": {
@@ -9,7 +9,8 @@
     "server": "ng serve --port 3010",
     "start": "npm run server",
     "test": "ng test modules --browsers=ChromeHeadless --watch=false",
-    "codecov": "ng test modules --code-coverage --browsers=ChromeHeadless --watch=false"
+    "codecov": "ng test modules --code-coverage --browsers=ChromeHeadless --watch=false",
+    "postinstall": "npm run build"
   },
   "author": {
     "name": "Giancarlo Buomprisco",
